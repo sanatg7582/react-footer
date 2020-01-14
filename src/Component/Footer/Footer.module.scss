@@ -1,0 +1,32 @@
+.FooterSection {
+  width: 100%;
+  background-color: #444444;
+  float: left;
+  color: #fff;
+  height: 400px;
+  padding-top: 50px;
+  position: fixed;
+  .FooterSectionChild {
+    width: 23%;
+    float: left;
+    text-align: left;
+    padding-left: 25px;
+  }
+}
+
+.btn {
+  background-color: #666666;
+  color: #fff;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: 700;
+}
+.footerShow {
+  opacity: 1;
+}
+.footerHide {
+  opacity: 0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}

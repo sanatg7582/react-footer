@@ -1,0 +1,23 @@
+.FooterSocialLogo {
+  background-color: #666666;
+  color: #fff;
+  position: relative;
+  top: 230px;
+  height: 90px;
+  .FooterSocial {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 15px;
+    .FooterSocialIcon {
+      display: flex;
+    }
+    span {
+      margin: 6px 6px 0px 6px;
+    }
+  }
+  .FooterLogo {
+    width: 50%;
+    float: left;
+  }
+}
